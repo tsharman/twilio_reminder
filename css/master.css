@@ -1,0 +1,62 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: helvetica;
+}
+#content {
+	width: 960px;
+	margin-left: auto; margin-right: auto;
+	height: 100px;
+	margin-top: 40px;
+}
+.main_input {
+	font-size: 30px;
+	border: none;
+	border-bottom: 1px dotted #999;
+}
+#time {
+	width: 200px;
+}
+
+#reminder_wrapper {
+	margin-top: 20px;
+}
+#reminder {
+	width: 720px;
+	display: inline;	
+}
+.main_input:focus {
+	outline: none;
+}
+
+/*fonts*/
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+	display: inline;
+}
+
+/*buttons*/
+.button {
+	padding: 5px;
+	border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+#send_reminder {
+	color: white;
+	margin-top: 20px;
+	background: #1981da;
+}
+#send_reminder:hover {
+	background: #999;
+}
+
+
+/*backgrounds*/
+.bluebg {
+	background: #228fec;
+}
+
