@@ -19,7 +19,7 @@
 		
 		<div id="phone_number_wrapper">
 			<h2>and send this reminder to</h2> 
-			<input id="phone_number" class="main_input" placeholder="(732) 666 7966"/>
+			<input id="phone_number" class="main_input" placeholder="7326667966" maxlength="10"/>
 		</div>
 		<div id="send_reminder" class="button">Remind me!</div>
 	</div>
